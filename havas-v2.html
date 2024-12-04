@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        /* Reset */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* Container Responsiveness */
+        .container {
+            width: 100%;
+            padding-right: 16px;
+            padding-left: 16px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (min-width: 576px) {
+            .container {
+                max-width: 540px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 720px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                max-width: 960px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1140px;
+            }
+        }
+
+        @media (min-width: 1400px) {
+            .container {
+                max-width: 1320px;
+            }
+        }
+
+        /* Header */
+        .header {
+            background-color: #131313;
+            padding: 21.8px 0;
+        }
+
+        .header img {
+            width: 120px;
+        }
+
+        /* Welcome Section */
+        .welcome-havas {
+            font-family: Anton;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36.13px;
+            letter-spacing: 0.05em;
+            color: #131313;
+            padding-top: 40px;
+        }
+
+        .dont-p {
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+            color: #646464;
+        }
+
+        .dear-john {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            color: #646464;
+        }
+
+        .v2-dear-name {
+            padding: 24px 0 24px 0;
+        }
+
+        .dear-john {
+            font-weight: 600;
+        }
+
+        .details-date-all {
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: #646464;
+        }
+
+        .card-details {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+        }
+
+        .havas-all-card {
+            border: 1px solid #E6E6E6;
+            padding: 14px;
+            gap: 24px;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .card-button {
+            background-color: #016FFB;
+            color: #FFFFFF;
+            font-family: Anton;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21.08px;
+            letter-spacing: 0.05em;
+            padding: 6px;
+            border-radius: 4px;
+            border: none;
+            margin: 24px 0 24px 0;
+            cursor: pointer;
+            width: 205px;
+        }
+
+        .botom-none {
+            padding-bottom: 0px;
+        }
+
+        .date {
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: #646464;
+        }
+
+        .date-location-gap {
+            display: flex;
+            align-items: start;
+            gap: 14px;
+        }
+
+        .top-bottom-gap {
+            gap: 12px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bottom-space-thans {
+            padding-bottom: 32px;
+        }
+
+        .card-button:hover {
+            background-color: #0452b8;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <img src="images/logo-havas.webp" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="">
+            <h4 class="welcome-havas">Welcome to Havas street!</h4>
+            <p class="dont-p">Don’t Miss Out – Your Next Step Awaits!</p>
+        </div>
+        <div class="v2-dear-name">
+            <p class="dear-john dont-p">Dear John Elbert,</p>
+            <p class="dont-p">You have been assigned a new shift.</p>
+        </div>
+        <div class="top-bottom-gap">
+            <div class="date-location-gap">
+                <div class="havas-all-card">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.66663 4.79167C6.32496 4.79167 6.04163 4.50834 6.04163 4.16667V1.66667C6.04163 1.32501 6.32496 1.04167 6.66663 1.04167C7.00829 1.04167 7.29163 1.32501 7.29163 1.66667V4.16667C7.29163 4.50834 7.00829 4.79167 6.66663 4.79167Z"
+                            fill="black" fill-opacity="0.5" />
+                        <path
+                            d="M13.3334 4.79167C12.9917 4.79167 12.7084 4.50834 12.7084 4.16667V1.66667C12.7084 1.32501 12.9917 1.04167 13.3334 1.04167C13.675 1.04167 13.9584 1.32501 13.9584 1.66667V4.16667C13.9584 4.50834 13.675 4.79167 13.3334 4.79167Z"
+                            fill="black" fill-opacity="0.5" />
+                        <path
+                            d="M17.0833 8.19997H2.91663C2.57496 8.19997 2.29163 7.91663 2.29163 7.57497C2.29163 7.2333 2.57496 6.94997 2.91663 6.94997H17.0833C17.425 6.94997 17.7083 7.2333 17.7083 7.57497C17.7083 7.91663 17.425 8.19997 17.0833 8.19997Z"
+                            fill="black" fill-opacity="0.5" />
+                        <path
+                            d="M13.3333 18.9583H6.66667C3.625 18.9583 1.875 17.2083 1.875 14.1667V7.08334C1.875 4.04167 3.625 2.29167 6.66667 2.29167H13.3333C16.375 2.29167 18.125 4.04167 18.125 7.08334V14.1667C18.125 17.2083 16.375 18.9583 13.3333 18.9583ZM6.66667 3.54167C4.28333 3.54167 3.125 4.70001 3.125 7.08334V14.1667C3.125 16.55 4.28333 17.7083 6.66667 17.7083H13.3333C15.7167 17.7083 16.875 16.55 16.875 14.1667V7.08334C16.875 4.70001 15.7167 3.54167 13.3333 3.54167H6.66667Z"
+                            fill="black" fill-opacity="0.5" />
+                        <path
+                            d="M7.08333 12.0833C6.975 12.0833 6.86666 12.0584 6.76666 12.0167C6.66666 11.975 6.57501 11.9167 6.49167 11.8417C6.41667 11.7583 6.35832 11.6667 6.31666 11.5667C6.27499 11.4667 6.25 11.3583 6.25 11.25C6.25 11.0333 6.34167 10.8167 6.49167 10.6584C6.57501 10.5834 6.66666 10.525 6.76666 10.4833C6.91666 10.4167 7.08334 10.4 7.25001 10.4333C7.30001 10.4417 7.35 10.4583 7.4 10.4833C7.45 10.5 7.5 10.525 7.55 10.5584C7.59166 10.5917 7.63333 10.625 7.67499 10.6584C7.70833 10.7 7.74999 10.7417 7.77499 10.7834C7.80832 10.8334 7.83334 10.8833 7.85001 10.9333C7.87501 10.9833 7.89168 11.0333 7.90001 11.0833C7.90834 11.1417 7.91667 11.1917 7.91667 11.25C7.91667 11.4667 7.82499 11.6833 7.67499 11.8417C7.51666 11.9917 7.3 12.0833 7.08333 12.0833Z"
+                            fill="black" fill-opacity="0.5" />
+                        <path
+                            d="M9.99996 12.0833C9.78329 12.0833 9.56663 11.9917 9.4083 11.8417C9.37497 11.8 9.34164 11.7583 9.3083 11.7167C9.27497 11.6667 9.24995 11.6167 9.23328 11.5667C9.20828 11.5167 9.19162 11.4667 9.18328 11.4167C9.17495 11.3583 9.16663 11.3083 9.16663 11.25C9.16663 11.1417 9.19161 11.0333 9.23328 10.9333C9.27495 10.8333 9.3333 10.7417 9.4083 10.6583C9.64163 10.425 10.0166 10.35 10.3166 10.4833C10.425 10.525 10.5083 10.5833 10.5916 10.6583C10.7416 10.8167 10.8333 11.0333 10.8333 11.25C10.8333 11.3083 10.825 11.3583 10.8166 11.4167C10.8083 11.4667 10.7916 11.5167 10.7666 11.5667C10.75 11.6167 10.7249 11.6667 10.6916 11.7167C10.6583 11.7583 10.625 11.8 10.5916 11.8417C10.5083 11.9167 10.425 11.975 10.3166 12.0167C10.2166 12.0583 10.1083 12.0833 9.99996 12.0833Z"
+                            fill="black" fill-opacity="0.5" />
+                        <path
+                            d="M7.08333 15C6.975 15 6.86666 14.975 6.76666 14.9333C6.66666 14.8917 6.57501 14.8333 6.49167 14.7583C6.41667 14.675 6.35832 14.5917 6.31666 14.4833C6.27499 14.3833 6.25 14.275 6.25 14.1667C6.25 13.95 6.34167 13.7333 6.49167 13.575C6.57501 13.5 6.66666 13.4416 6.76666 13.4C7.075 13.2666 7.44166 13.3417 7.67499 13.575C7.70833 13.6167 7.74999 13.6583 7.77499 13.7C7.80832 13.75 7.83334 13.8 7.85001 13.85C7.87501 13.9 7.89168 13.95 7.90001 14.0083C7.90834 14.0583 7.91667 14.1167 7.91667 14.1667C7.91667 14.3833 7.82499 14.6 7.67499 14.7583C7.51666 14.9083 7.3 15 7.08333 15Z"
+                            fill="black" fill-opacity="0.5" />
+                    </svg>
+                </div>
+                <div class="">
+                    <p class="date">Date</p>
+                    <p class="card-details">27/11/2024</p>
+                </div>
+            </div>
+            <div class="date-location-gap">
+                <div class="havas-all-card">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M17.7082 10.0004C17.7082 14.2579 14.2573 17.7088 9.99984 17.7088C5.74234 17.7088 2.2915 14.2579 2.2915 10.0004C2.2915 5.74292 5.74234 2.29208 9.99984 2.29208C14.2573 2.29208 17.7082 5.74292 17.7082 10.0004Z"
+                            stroke="black" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12.8596 12.4524L9.7179 10.5783V6.53909" stroke="black" stroke-opacity="0.5"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+                <div class="">
+                    <p class="date">Time</p>
+                    <p class="card-details">4:00 PM</p>
+                </div>
+            </div>
+            <div class="date-location-gap">
+                <div class="havas-all-card">
+                    <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1.60144 7.76424C1.61345 4.23042 4.48791 1.37542 8.02173 1.38743C11.5556 1.39943 14.4105 4.2739 14.3985 7.80772V7.88018C14.3551 10.1773 13.0725 12.3005 11.5 13.9599C10.6007 14.8937 9.59645 15.7205 8.50724 16.4237C8.21599 16.6756 7.78399 16.6756 7.49274 16.4237C5.869 15.3668 4.44389 14.0324 3.2826 12.4816C2.24757 11.1293 1.65991 9.48793 1.60144 7.78598L1.60144 7.76424Z"
+                            stroke="black" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <circle cx="7.99994" cy="7.88742" r="2.05072" stroke="black" stroke-opacity="0.5"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+                <div class="">
+                    <p class="date">Location</p>
+                    <p class="card-details">2118 Thornridge Cir, Syracuse, New Maxico 311354</p>
+                </div>
+            </div>
+        </div>
+        <button class="card-button">
+            Confirm Availability
+        </button>
+        <div class="bottom-space-thans">
+            <p class="card-details">Thank you!</p>
+            <div class="dont-p">Elle Max</div>
+        </div>
+</body>
+
+</html>
